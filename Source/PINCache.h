@@ -9,6 +9,8 @@
 #import <PINCache/PINDiskCache.h>
 #import <PINCache/PINMemoryCache.h>
 
+@class PINMemoryCache;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @class PINCache;

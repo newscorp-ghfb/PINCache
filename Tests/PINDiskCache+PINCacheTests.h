@@ -1,5 +1,8 @@
 #import <PINCache/PINCache.h>
 
+@class PINCache;
+@class PINDiskCache;
+
 @interface PINDiskCache (PINCacheTests)
 
 /**

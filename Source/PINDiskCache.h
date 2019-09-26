@@ -8,6 +8,8 @@
 #import <PINCache/PINCaching.h>
 #import <PINCache/PINCacheObjectSubscripting.h>
 
+@class PINMemoryCache;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @class PINDiskCache;
