@@ -1,8 +1,22 @@
 # PINCache
 
+## TODO:
+
+- replace convenice inits with default value inits
+- typed generic caches with defaults of String or NSString
+- More subscript uses?
+- allow objc subclassing?
+- check all enum and error types for objc
+- replace operatoin queues with dispatch?
+- swift 5.1 use property wrappers to replace synchronouslyLockFileAccessWhileExecuting
+
 [![CocoaPods](https://img.shields.io/cocoapods/v/PINCache.svg)](http://cocoadocs.org/docsets/PINCache/)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Build status](https://badge.buildkite.com/03e247305c96c3371f2ff2766e9c8c1efdd5fdb3a7eceaff43.svg?branch=master&style=flat)](https://buildkite.com/pinterest/pincache)
+
+## PINCache.swift
+
+TODO: Why...
 
 ## Fast, non-deadlocking parallel object cache for iOS and OS X.
 

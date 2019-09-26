@@ -12,12 +12,12 @@
 		6818C28A1E55218400875DB7 /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818C2891E55218400875DB7 /* PINOperation.framework */; };
 		6818C28C1E55218A00875DB7 /* PINOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6818C28B1E55218A00875DB7 /* PINOperation.framework */; };
 		687BB0AA1E52706B005D70C6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC0106CA1E28248800890935 /* Default-568h@2x.png */; };
-		68A0FC001E4D32C4000B552D /* PINCacheMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A0FBFF1E4D3282000B552D /* PINCacheMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68A0FC011E4D32C6000B552D /* PINCacheMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A0FBFF1E4D3282000B552D /* PINCacheMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68A0FC021E4D32C7000B552D /* PINCacheMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A0FBFF1E4D3282000B552D /* PINCacheMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6928EED31E4160EE00B5D975 /* PINCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 6928EED21E4160EE00B5D975 /* PINCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6928EED41E4160FE00B5D975 /* PINCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 6928EED21E4160EE00B5D975 /* PINCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6928EED51E41610700B5D975 /* PINCaching.h in Headers */ = {isa = PBXBuildFile; fileRef = 6928EED21E4160EE00B5D975 /* PINCaching.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A0FC001E4D32C4000B552D /* PINCacheMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A0FBFF1E4D3282000B552D /* PINCacheMacros.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A0FC011E4D32C6000B552D /* PINCacheMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A0FBFF1E4D3282000B552D /* PINCacheMacros.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		68A0FC021E4D32C7000B552D /* PINCacheMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A0FBFF1E4D3282000B552D /* PINCacheMacros.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		6928EED31E4160EE00B5D975 /* PINCaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928EED21E4160EE00B5D975 /* PINCaching.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		6928EED41E4160FE00B5D975 /* PINCaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928EED21E4160EE00B5D975 /* PINCaching.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		6928EED51E41610700B5D975 /* PINCaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928EED21E4160EE00B5D975 /* PINCaching.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		C30EE1F520373D1900D78CB9 /* NSDate+PINCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30EE1EA203717DE00D78CB9 /* NSDate+PINCacheTests.m */; };
 		C30EE1F620373D1A00D78CB9 /* NSDate+PINCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30EE1EA203717DE00D78CB9 /* NSDate+PINCacheTests.m */; };
 		C30EE1F720373D1B00D78CB9 /* NSDate+PINCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30EE1EA203717DE00D78CB9 /* NSDate+PINCacheTests.m */; };
@@ -25,27 +25,18 @@
 		C38F01AB20A32E0200F47F0E /* PINDiskCache+PINCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C38F01A920A32E0200F47F0E /* PINDiskCache+PINCacheTests.m */; };
 		CC0105DF1E271A5C00890935 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0105B11E271A1600890935 /* PINCache.framework */; };
 		CC0105EE1E271A6400890935 /* PINCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0105C11E271A4000890935 /* PINCache.framework */; };
-		CC01060E1E271A9500890935 /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0106061E271A9000890935 /* PINCache.m */; };
-		CC01060F1E271A9500890935 /* PINDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0106091E271A9000890935 /* PINDiskCache.m */; };
-		CC0106101E271A9500890935 /* PINMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC01060B1E271A9000890935 /* PINMemoryCache.m */; };
-		CC0106111E271A9600890935 /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0106061E271A9000890935 /* PINCache.m */; };
-		CC0106121E271A9600890935 /* PINDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0106091E271A9000890935 /* PINDiskCache.m */; };
-		CC0106131E271A9600890935 /* PINMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC01060B1E271A9000890935 /* PINMemoryCache.m */; };
-		CC0106141E271A9700890935 /* PINCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0106061E271A9000890935 /* PINCache.m */; };
-		CC0106151E271A9700890935 /* PINDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0106091E271A9000890935 /* PINDiskCache.m */; };
-		CC0106161E271A9700890935 /* PINMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CC01060B1E271A9000890935 /* PINMemoryCache.m */; };
-		CC0106171E271AAF00890935 /* PINCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0106051E271A9000890935 /* PINCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC0106181E271AAF00890935 /* PINCacheObjectSubscripting.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0106071E271A9000890935 /* PINCacheObjectSubscripting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC0106191E271AAF00890935 /* PINDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0106081E271A9000890935 /* PINDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC01061A1E271AAF00890935 /* PINMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CC01060A1E271A9000890935 /* PINMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC01061B1E271AB000890935 /* PINCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0106051E271A9000890935 /* PINCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC01061C1E271AB000890935 /* PINCacheObjectSubscripting.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0106071E271A9000890935 /* PINCacheObjectSubscripting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC01061D1E271AB000890935 /* PINDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0106081E271A9000890935 /* PINDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC01061E1E271AB000890935 /* PINMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CC01060A1E271A9000890935 /* PINMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC01061F1E271AB000890935 /* PINCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0106051E271A9000890935 /* PINCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC0106201E271AB000890935 /* PINCacheObjectSubscripting.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0106071E271A9000890935 /* PINCacheObjectSubscripting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC0106211E271AB000890935 /* PINDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0106081E271A9000890935 /* PINDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC0106221E271AB000890935 /* PINMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CC01060A1E271A9000890935 /* PINMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC01060E1E271A9500890935 /* PINCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0106061E271A9000890935 /* PINCache.swift */; };
+		CC01060F1E271A9500890935 /* PINDiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0106091E271A9000890935 /* PINDiskCache.swift */; };
+		CC0106101E271A9500890935 /* PINMemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01060B1E271A9000890935 /* PINMemoryCache.swift */; };
+		CC0106111E271A9600890935 /* PINCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0106061E271A9000890935 /* PINCache.swift */; };
+		CC0106121E271A9600890935 /* PINDiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0106091E271A9000890935 /* PINDiskCache.swift */; };
+		CC0106131E271A9600890935 /* PINMemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01060B1E271A9000890935 /* PINMemoryCache.swift */; };
+		CC0106141E271A9700890935 /* PINCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0106061E271A9000890935 /* PINCache.swift */; };
+		CC0106151E271A9700890935 /* PINDiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0106091E271A9000890935 /* PINDiskCache.swift */; };
+		CC0106161E271A9700890935 /* PINMemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01060B1E271A9000890935 /* PINMemoryCache.swift */; };
+		CC0106181E271AAF00890935 /* PINCacheObjectSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0106071E271A9000890935 /* PINCacheObjectSubscripting.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC01061C1E271AB000890935 /* PINCacheObjectSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0106071E271A9000890935 /* PINCacheObjectSubscripting.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC0106201E271AB000890935 /* PINCacheObjectSubscripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0106071E271A9000890935 /* PINCacheObjectSubscripting.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC0106C61E28226900890935 /* PINCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC01060D1E271A9000890935 /* PINCacheTests.m */; };
 		CC0106C71E28226A00890935 /* PINCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC01060D1E271A9000890935 /* PINCacheTests.m */; };
 		CC0106C81E28226A00890935 /* PINCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC01060D1E271A9000890935 /* PINCacheTests.m */; };
@@ -175,8 +166,8 @@
 		6818C2891E55218400875DB7 /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINOperation.framework; path = "../../Library/Developer/Xcode/DerivedData/PINCache-cxjnintatqynfgceozwzgezmeypl/Build/Products/Debug-appletvsimulator/PINOperation.framework"; sourceTree = "<group>"; };
 		6818C28B1E55218A00875DB7 /* PINOperation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PINOperation.framework; path = Carthage/Checkouts/PINOperation/build/Debug/PINOperation.framework; sourceTree = "<group>"; };
 		6818C2901E564C1100875DB7 /* PINOperation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PINOperation.xcodeproj; path = Carthage/Checkouts/PINOperation/PINOperation.xcodeproj; sourceTree = "<group>"; };
-		68A0FBFF1E4D3282000B552D /* PINCacheMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINCacheMacros.h; sourceTree = "<group>"; };
-		6928EED21E4160EE00B5D975 /* PINCaching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINCaching.h; sourceTree = "<group>"; };
+		68A0FBFF1E4D3282000B552D /* PINCacheMacros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINCacheMacros.swift; sourceTree = "<group>"; };
+		6928EED21E4160EE00B5D975 /* PINCaching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PINCaching.swift; sourceTree = "<group>"; };
 		C30EE1E9203717DE00D78CB9 /* NSDate+PINCacheTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+PINCacheTests.h"; sourceTree = "<group>"; };
 		C30EE1EA203717DE00D78CB9 /* NSDate+PINCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PINCacheTests.m"; sourceTree = "<group>"; };
 		C38F01A820A32E0200F47F0E /* PINDiskCache+PINCacheTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PINDiskCache+PINCacheTests.h"; sourceTree = "<group>"; };
@@ -187,18 +178,25 @@
 		CC0105DA1E271A5C00890935 /* PINCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PINCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0105E91E271A6400890935 /* PINCache-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PINCache-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0105F81E271A7300890935 /* PINCache-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PINCache-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC0106051E271A9000890935 /* PINCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINCache.h; sourceTree = "<group>"; };
-		CC0106061E271A9000890935 /* PINCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINCache.m; sourceTree = "<group>"; };
-		CC0106071E271A9000890935 /* PINCacheObjectSubscripting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINCacheObjectSubscripting.h; sourceTree = "<group>"; };
-		CC0106081E271A9000890935 /* PINDiskCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINDiskCache.h; sourceTree = "<group>"; };
-		CC0106091E271A9000890935 /* PINDiskCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINDiskCache.m; sourceTree = "<group>"; };
-		CC01060A1E271A9000890935 /* PINMemoryCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINMemoryCache.h; sourceTree = "<group>"; };
-		CC01060B1E271A9000890935 /* PINMemoryCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINMemoryCache.m; sourceTree = "<group>"; };
+		CC0106061E271A9000890935 /* PINCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINCache.swift; sourceTree = "<group>"; };
+		CC0106071E271A9000890935 /* PINCacheObjectSubscripting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINCacheObjectSubscripting.swift; sourceTree = "<group>"; };
+		CC0106091E271A9000890935 /* PINDiskCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINDiskCache.swift; sourceTree = "<group>"; };
+		CC01060B1E271A9000890935 /* PINMemoryCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PINMemoryCache.swift; sourceTree = "<group>"; };
 		CC01060D1E271A9000890935 /* PINCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINCacheTests.m; sourceTree = "<group>"; };
 		CC0106441E281B0E00890935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC0106C51E281D6900890935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC0106C91E28228300890935 /* PINCacheTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINCacheTests.h; sourceTree = "<group>"; };
 		CC0106CA1E28248800890935 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F4A5F5BB2336D41E009A5702 /* PINDiskCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINDiskCache.m; sourceTree = "<group>"; };
+		F4A5F5BF2336D41E009A5702 /* PINCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINCache.h; sourceTree = "<group>"; };
+		F4A5F5C02336D41F009A5702 /* PINDiskCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINDiskCache.h; sourceTree = "<group>"; };
+		F4A5F5C12336D41F009A5702 /* PINCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINCache.m; sourceTree = "<group>"; };
+		F4A5F5C22336D41F009A5702 /* PINCacheObjectSubscripting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINCacheObjectSubscripting.h; sourceTree = "<group>"; };
+		F4A5F5C32336D41F009A5702 /* PINCaching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINCaching.h; sourceTree = "<group>"; };
+		F4A5F5C42336D41F009A5702 /* PINMemoryCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PINMemoryCache.m; sourceTree = "<group>"; };
+		F4A5F5C52336D41F009A5702 /* PINCacheMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINCacheMacros.h; sourceTree = "<group>"; };
+		F4A5F5C62336D41F009A5702 /* PINMemoryCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PINMemoryCache.h; sourceTree = "<group>"; };
+		F4A5F5C72336ED8F009A5702 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +277,7 @@
 		CC0105A71E271A1600890935 = {
 			isa = PBXGroup;
 			children = (
+				F4A5F5C72336ED8F009A5702 /* README.md */,
 				6818C2901E564C1100875DB7 /* PINOperation.xcodeproj */,
 				CC0106031E271A9000890935 /* Source */,
 				CC01060C1E271A9000890935 /* Tests */,
@@ -304,15 +303,21 @@
 			isa = PBXGroup;
 			children = (
 				CC0106441E281B0E00890935 /* Info.plist */,
-				6928EED21E4160EE00B5D975 /* PINCaching.h */,
-				CC0106051E271A9000890935 /* PINCache.h */,
-				CC0106061E271A9000890935 /* PINCache.m */,
-				CC0106071E271A9000890935 /* PINCacheObjectSubscripting.h */,
-				CC0106081E271A9000890935 /* PINDiskCache.h */,
-				CC0106091E271A9000890935 /* PINDiskCache.m */,
-				CC01060A1E271A9000890935 /* PINMemoryCache.h */,
-				CC01060B1E271A9000890935 /* PINMemoryCache.m */,
-				68A0FBFF1E4D3282000B552D /* PINCacheMacros.h */,
+				F4A5F5BF2336D41E009A5702 /* PINCache.h */,
+				F4A5F5C12336D41F009A5702 /* PINCache.m */,
+				CC0106061E271A9000890935 /* PINCache.swift */,
+				F4A5F5C52336D41F009A5702 /* PINCacheMacros.h */,
+				68A0FBFF1E4D3282000B552D /* PINCacheMacros.swift */,
+				F4A5F5C22336D41F009A5702 /* PINCacheObjectSubscripting.h */,
+				CC0106071E271A9000890935 /* PINCacheObjectSubscripting.swift */,
+				F4A5F5C32336D41F009A5702 /* PINCaching.h */,
+				6928EED21E4160EE00B5D975 /* PINCaching.swift */,
+				F4A5F5C02336D41F009A5702 /* PINDiskCache.h */,
+				F4A5F5BB2336D41E009A5702 /* PINDiskCache.m */,
+				CC0106091E271A9000890935 /* PINDiskCache.swift */,
+				F4A5F5C62336D41F009A5702 /* PINMemoryCache.h */,
+				F4A5F5C42336D41F009A5702 /* PINMemoryCache.m */,
+				CC01060B1E271A9000890935 /* PINMemoryCache.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -347,13 +352,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6928EED31E4160EE00B5D975 /* PINCaching.h in Headers */,
-				CC0106171E271AAF00890935 /* PINCache.h in Headers */,
-				68A0FC001E4D32C4000B552D /* PINCacheMacros.h in Headers */,
-				CC0106181E271AAF00890935 /* PINCacheObjectSubscripting.h in Headers */,
-				CC01061A1E271AAF00890935 /* PINMemoryCache.h in Headers */,
 				C38F01AA20A32E0200F47F0E /* PINDiskCache+PINCacheTests.h in Headers */,
-				CC0106191E271AAF00890935 /* PINDiskCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,12 +360,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6928EED41E4160FE00B5D975 /* PINCaching.h in Headers */,
-				CC01061B1E271AB000890935 /* PINCache.h in Headers */,
-				68A0FC011E4D32C6000B552D /* PINCacheMacros.h in Headers */,
-				CC01061C1E271AB000890935 /* PINCacheObjectSubscripting.h in Headers */,
-				CC01061E1E271AB000890935 /* PINMemoryCache.h in Headers */,
-				CC01061D1E271AB000890935 /* PINDiskCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,12 +367,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6928EED51E41610700B5D975 /* PINCaching.h in Headers */,
-				CC01061F1E271AB000890935 /* PINCache.h in Headers */,
-				68A0FC021E4D32C7000B552D /* PINCacheMacros.h in Headers */,
-				CC0106201E271AB000890935 /* PINCacheObjectSubscripting.h in Headers */,
-				CC0106221E271AB000890935 /* PINMemoryCache.h in Headers */,
-				CC0106211E271AB000890935 /* PINDiskCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,10 +642,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC01060E1E271A9500890935 /* PINCache.m in Sources */,
-				CC0106101E271A9500890935 /* PINMemoryCache.m in Sources */,
+				CC01060E1E271A9500890935 /* PINCache.swift in Sources */,
+				CC0106101E271A9500890935 /* PINMemoryCache.swift in Sources */,
 				C38F01AB20A32E0200F47F0E /* PINDiskCache+PINCacheTests.m in Sources */,
-				CC01060F1E271A9500890935 /* PINDiskCache.m in Sources */,
+				CC01060F1E271A9500890935 /* PINDiskCache.swift in Sources */,
+				CC0106181E271AAF00890935 /* PINCacheObjectSubscripting.swift in Sources */,
+				6928EED31E4160EE00B5D975 /* PINCaching.swift in Sources */,
+				68A0FC001E4D32C4000B552D /* PINCacheMacros.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,9 +656,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC0106111E271A9600890935 /* PINCache.m in Sources */,
-				CC0106131E271A9600890935 /* PINMemoryCache.m in Sources */,
-				CC0106121E271A9600890935 /* PINDiskCache.m in Sources */,
+				CC0106111E271A9600890935 /* PINCache.swift in Sources */,
+				CC0106131E271A9600890935 /* PINMemoryCache.swift in Sources */,
+				CC0106121E271A9600890935 /* PINDiskCache.swift in Sources */,
+				CC01061C1E271AB000890935 /* PINCacheObjectSubscripting.swift in Sources */,
+				6928EED41E4160FE00B5D975 /* PINCaching.swift in Sources */,
+				68A0FC011E4D32C6000B552D /* PINCacheMacros.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,9 +669,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC0106141E271A9700890935 /* PINCache.m in Sources */,
-				CC0106161E271A9700890935 /* PINMemoryCache.m in Sources */,
-				CC0106151E271A9700890935 /* PINDiskCache.m in Sources */,
+				CC0106141E271A9700890935 /* PINCache.swift in Sources */,
+				CC0106161E271A9700890935 /* PINMemoryCache.swift in Sources */,
+				CC0106151E271A9700890935 /* PINDiskCache.swift in Sources */,
+				CC0106201E271AB000890935 /* PINCacheObjectSubscripting.swift in Sources */,
+				6928EED51E41610700B5D975 /* PINCaching.swift in Sources */,
+				68A0FC021E4D32C7000B552D /* PINCacheMacros.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -795,7 +791,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -849,7 +845,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -863,6 +859,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -878,6 +875,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -885,6 +884,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -900,6 +900,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -907,6 +908,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -923,6 +925,8 @@
 				PRODUCT_NAME = PINCache;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -932,6 +936,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -948,6 +953,7 @@
 				PRODUCT_NAME = PINCache;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -957,6 +963,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -975,6 +982,8 @@
 				PRODUCT_NAME = PINCache;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -982,6 +991,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1000,37 +1010,46 @@
 				PRODUCT_NAME = PINCache;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		CC0105E31E271A5C00890935 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINCacheTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		CC0105E41E271A5C00890935 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pinterest.PINCacheTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		CC0105F21E271A6400890935 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pinterest.PINCache-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Debug;
@@ -1038,11 +1057,13 @@
 		CC0105F31E271A6400890935 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pinterest.PINCache-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Release;
@@ -1050,6 +1071,7 @@
 		CC0106011E271A7300890935 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1062,12 +1084,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pinterest.PINCache-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		CC0106021E271A7300890935 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1080,6 +1105,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pinterest.PINCache-macOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
